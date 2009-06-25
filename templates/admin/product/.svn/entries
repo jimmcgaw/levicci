@@ -1,0 +1,71 @@
+9
+
+dir
+1833
+svn://satchmoproject.com/satchmo/tags/0.8.1/satchmo/templates/admin/product
+svn://satchmoproject.com
+
+
+
+2008-11-04T22:02:20.885928Z
+1682
+bkroeze
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a38d40e9-c014-0410-b785-c606c0c8e7de
+
+product
+dir
+
+configurableproduct
+dir
+
+change_form.html
+file
+
+
+
+
+2008-12-16T03:41:47.000000Z
+1f5572c15ae6d36a11555545523a8ca1
+2007-09-16T18:54:55.589568Z
+727
+bkroeze
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+507
+
+productvariation
+dir
+

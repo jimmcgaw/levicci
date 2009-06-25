@@ -1,0 +1,19 @@
+2009-06-25 09:34:59,708 root        : INFO     Satchmo Started
+2009-06-25 09:35:00,269 product.models: DEBUG    registered base search listener
+2009-06-25 09:35:00,580 product.models: DEBUG    registered base search listener
+2009-06-25 09:35:09,690 recentlist.middleware: DEBUG    Could not find product url.
+2009-06-25 09:35:09,801 satchmo.shop.models: WARNING  No Shop Config found, using test shop config for site=1.
+2009-06-25 09:35:12,879 satchmo.shop.models: WARNING  No Shop Config found, using test shop config for site=1.
+2009-06-25 09:35:15,987 satchmo.shop.models: WARNING  No Shop Config found, using test shop config for site=1.
+2009-06-25 09:35:19,574 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
+2009-06-25 09:35:23,002 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
+2009-06-25 09:35:26,442 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
+2009-06-25 09:35:30,370 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
+2009-06-25 09:35:33,670 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
+2009-06-25 09:35:36,767 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
+2009-06-25 09:35:40,092 satchmo.shop.models: WARNING  No Shop Config found, using test shop config for site=1.
+2009-06-25 09:35:40,133 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
+2009-06-25 09:35:40,185 satchmo.shop.models: WARNING  No Shop Config found, using test shop config for site=1.
+2009-06-25 09:35:40,231 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
+WARNING  No url found for satchmo_search (OK if running tests)
+if running tests)

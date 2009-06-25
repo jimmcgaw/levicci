@@ -1,0 +1,123 @@
+9
+
+dir
+1833
+svn://satchmoproject.com/satchmo/tags/0.8.1/satchmo/shipping/modules
+svn://satchmoproject.com
+
+
+
+2008-11-09T02:29:06.139478Z
+1689
+chris
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a38d40e9-c014-0410-b785-c606c0c8e7de
+
+base.py
+file
+
+
+
+
+2008-12-16T03:41:43.000000Z
+2f96675b73053034fe7acb2d1219ea8c
+2008-10-24T06:50:01.876809Z
+1650
+bkroeze
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+574
+
+flat
+dir
+
+per
+dir
+
+__init__.py
+file
+
+
+
+
+2008-12-16T03:41:43.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2007-04-13T02:19:04.502646Z
+283
+chris
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+ups
+dir
+
+usps
+dir
+
+dummy
+dir
+
+fedex
+dir
+
+tieredquantity
+dir
+
+no
+dir
+
+tiered
+dir
+
