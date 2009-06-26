@@ -1,19 +1,53 @@
-2009-06-25 09:34:59,708 root        : INFO     Satchmo Started
-2009-06-25 09:35:00,269 product.models: DEBUG    registered base search listener
-2009-06-25 09:35:00,580 product.models: DEBUG    registered base search listener
-2009-06-25 09:35:09,690 recentlist.middleware: DEBUG    Could not find product url.
-2009-06-25 09:35:09,801 satchmo.shop.models: WARNING  No Shop Config found, using test shop config for site=1.
-2009-06-25 09:35:12,879 satchmo.shop.models: WARNING  No Shop Config found, using test shop config for site=1.
-2009-06-25 09:35:15,987 satchmo.shop.models: WARNING  No Shop Config found, using test shop config for site=1.
-2009-06-25 09:35:19,574 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
-2009-06-25 09:35:23,002 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
-2009-06-25 09:35:26,442 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
-2009-06-25 09:35:30,370 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
-2009-06-25 09:35:33,670 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
-2009-06-25 09:35:36,767 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
-2009-06-25 09:35:40,092 satchmo.shop.models: WARNING  No Shop Config found, using test shop config for site=1.
-2009-06-25 09:35:40,133 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
-2009-06-25 09:35:40,185 satchmo.shop.models: WARNING  No Shop Config found, using test shop config for site=1.
-2009-06-25 09:35:40,231 shop.templatetags.satchmo_util: WARNING  No url found for satchmo_search (OK if running tests)
-WARNING  No url found for satchmo_search (OK if running tests)
-if running tests)
+2009-06-25 09:42:22,269 root        : INFO     Satchmo Started
+2009-06-25 09:42:22,830 product.models: DEBUG    registered base search listener
+2009-06-25 09:42:23,050 product.models: DEBUG    registered base search listener
+2009-06-25 09:42:40,223 recentlist.middleware: DEBUG    Product url is ^/product/(?P<slug>[-\w]+)/
+2009-06-25 09:43:16,377 l10n.utils  : CRITICAL Cannot set locale to default locale 'en_US'. Something is misconfigured.
+2009-06-25 09:43:23,774 l10n.utils  : CRITICAL Cannot set locale to default locale 'en_US'. Something is misconfigured.
+2009-06-25 09:43:31,272 root        : DEBUG    subtypes = ('ConfigurableProduct',)
+2009-06-25 09:43:31,388 product.utils: DEBUG    serialized: ({'items': (<Option: Small>, <Option: Medium>, <Option: Large>), 'name': u'sizes', 'id': 1L}, {'items': (<Option: Black>, <Option: White>, <Option: Blue>), 'name': u'colors', 'id': 2L})
+2009-06-25 09:43:31,389 product.utils: DEBUG    Serialized Options dj-rocks: ({'items': (<Option: Small>, <Option: Medium>, <Option: Large>), 'name': u'sizes', 'id': 1L}, {'items': (<Option: Black>, <Option: White>, <Option: Blue>), 'name': u'colors', 'id': 2L})
+2009-06-25 09:43:31,408 product.utils: WARNING  You must run satchmo_rebuild_pricing and add it to a cron-job to run every day, or else the product details will not work for product detail pages.
+2009-06-25 09:43:31,892 l10n.utils  : CRITICAL Cannot set locale to default locale 'en_US'. Something is misconfigured.
+2009-06-25 09:43:32,112 recentlist.middleware: DEBUG    Added recently viewed: [u'dj-rocks']
+2009-06-25 09:43:40,315 shop.views.cart: DEBUG    FORM: <QueryDict: {u'productname': [u'nonexistent-product'], u'quantity': [u'1']}>
+2009-06-25 09:43:40,320 shop.views.cart: DEBUG    Could not find product: nonexistent-product
+2009-06-25 09:43:40,622 shop.views.cart: DEBUG    FORM: <QueryDict: {u'productname': [u'PY-Rocks'], u'quantity': [u'1']}>
+2009-06-25 09:43:40,628 shop.views.cart: DEBUG    found product: Python Rocks shirt
+2009-06-25 09:43:40,957 l10n.utils  : CRITICAL Cannot set locale to default locale 'en_US'. Something is misconfigured.
+2009-06-25 09:43:48,743 root        : DEBUG    subtypes = ('ConfigurableProduct',)
+2009-06-25 09:43:48,866 product.utils: DEBUG    serialized: ({'items': (<Option: Small>, <Option: Medium>, <Option: Large>), 'name': u'sizes', 'id': 1L}, {'items': (<Option: Black>, <Option: White>, <Option: Blue>), 'name': u'colors', 'id': 2L})
+2009-06-25 09:43:48,867 product.utils: DEBUG    Serialized Options dj-rocks: ({'items': (<Option: Small>, <Option: Medium>, <Option: Large>), 'name': u'sizes', 'id': 1L}, {'items': (<Option: Black>, <Option: White>, <Option: Blue>), 'name': u'colors', 'id': 2L})
+2009-06-25 09:43:48,882 product.utils: WARNING  You must run satchmo_rebuild_pricing and add it to a cron-job to run every day, or else the product details will not work for product detail pages.
+2009-06-25 09:43:49,315 l10n.utils  : CRITICAL Cannot set locale to default locale 'en_US'. Something is misconfigured.
+2009-06-25 09:43:49,501 recentlist.middleware: DEBUG    Added recently viewed: [u'dj-rocks']
+2009-06-25 09:43:57,893 root        : DEBUG    subtypes = ('ConfigurableProduct',)
+2009-06-25 09:43:57,999 product.utils: DEBUG    serialized: ({'items': (<Option: Small>, <Option: Medium>, <Option: Large>), 'name': u'sizes', 'id': 1L}, {'items': (<Option: Black>, <Option: White>, <Option: Blue>), 'name': u'colors', 'id': 2L})
+2009-06-25 09:43:58,000 product.utils: DEBUG    Serialized Options dj-rocks: ({'items': (<Option: Small>, <Option: Medium>, <Option: Large>), 'name': u'sizes', 'id': 1L}, {'items': (<Option: Black>, <Option: White>, <Option: Blue>), 'name': u'colors', 'id': 2L})
+2009-06-25 09:43:58,019 product.utils: WARNING  You must run satchmo_rebuild_pricing and add it to a cron-job to run every day, or else the product details will not work for product detail pages.
+2009-06-25 09:43:58,380 l10n.utils  : CRITICAL Cannot set locale to default locale 'en_US'. Something is misconfigured.
+2009-06-25 09:43:58,570 recentlist.middleware: DEBUG    Added recently viewed: [u'dj-rocks']
+2009-06-25 09:44:06,280 root        : DEBUG    subtypes = ('ConfigurableProduct',)
+2009-06-25 09:44:06,396 product.utils: DEBUG    serialized: ({'items': (<Option: Small>, <Option: Medium>, <Option: Large>), 'name': u'sizes', 'id': 1L}, {'items': (<Option: Black>, <Option: White>, <Option: Blue>), 'name': u'colors', 'id': 2L})
+2009-06-25 09:44:06,397 product.utils: DEBUG    Serialized Options dj-rocks: ({'items': (<Option: Small>, <Option: Medium>, <Option: Large>), 'name': u'sizes', 'id': 1L}, {'items': (<Option: Black>, <Option: White>, <Option: Blue>), 'name': u'colors', 'id': 2L})
+2009-06-25 09:44:06,416 product.utils: WARNING  You must run satchmo_rebuild_pricing and add it to a cron-job to run every day, or else the product details will not work for product detail pages.
+2009-06-25 09:44:06,776 l10n.utils  : CRITICAL Cannot set locale to default locale 'en_US'. Something is misconfigured.
+2009-06-25 09:44:06,961 recentlist.middleware: DEBUG    Added recently viewed: [u'dj-rocks']
+2009-06-25 09:44:14,841 satchmo.accounts.views: DEBUG    No contact in request
+2009-06-25 09:44:15,139 accounts.forms: DEBUG    Saving contact
+2009-06-25 09:44:15,753 satchmo.accounts.views: DEBUG    No contact in request
+2009-06-25 09:44:15,978 accounts.forms: DEBUG    Saving contact
+2009-06-25 09:44:16,861 satchmo.contact.forms: DEBUG    Saving contact info for New Tester
+2009-06-25 09:44:16,912 satchmo.shop.models: DEBUG    Recalculating all contact orders not in process
+2009-06-25 09:44:16,916 satchmo.shop.models: DEBUG    Found 0 orders to recalc
+2009-06-25 09:44:16,920 satchmo.shop.models: DEBUG    Recalculating all contact orders not in process
+2009-06-25 09:44:16,923 satchmo.shop.models: DEBUG    Found 0 orders to recalc
+2009-06-25 09:44:24,830 satchmo.shop.views: WARNING  No email address configured for the shop.  Using admin settings.
+2009-06-25 09:44:32,778 root        : DEBUG    subtypes = ('ConfigurableProduct',)
+2009-06-25 09:44:32,888 product.utils: DEBUG    serialized: ({'items': (<Option: Small>, <Option: Medium>, <Option: Large>), 'name': u'sizes', 'id': 1L}, {'items': (<Option: Black>, <Option: White>, <Option: Blue>), 'name': u'colors', 'id': 2L})
+2009-06-25 09:44:32,889 product.utils: DEBUG    Serialized Options dj-rocks: ({'items': (<Option: Small>, <Option: Medium>, <Option: Large>), 'name': u'sizes', 'id': 1L}, {'items': (<Option: Black>, <Option: White>, <Option: Blue>), 'name': u'colors', 'id': 2L})
+2009-06-25 09:44:32,909 product.utils: WARNING  You must run satchmo_rebuild_pricing and add it to a cron-job to run every day, or else the product details will not work for product detail pages.
+2009-06-25 09:44:33,332 l10n.utils  : CRITICAL Cannot set locale to default locale 'en_US'. Something is misconfigured.
+2009-06-25 09:44:33,628 recentlist.middleware: DEBUG    Added recently viewed: [u'dj-rocks']
+list.middleware: DEBUG    Added recently viewed: [u'dj-rocks']
+eware DEBUG    Added recently viewed: [u'dj-rocks']
